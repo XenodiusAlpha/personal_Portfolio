@@ -8,7 +8,6 @@ const Header = () => {
         <h1>Justin Surette</h1>
         <Navigation />
     </header>
-    
   )
 }
 
