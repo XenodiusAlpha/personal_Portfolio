@@ -1,10 +1,7 @@
 import React from 'react';
 import gitHubLogo from '../assets/icons/github-mark.png';
 
-const Project = () => {
-
-    const { screenshot, screenshotImageAlt, deployedLink, projectTitle, repoLink } = props;
-
+const Project = ({ screenshot, screenshotImageAlt, deployedLink, projectTitle, repoLink }) => {
 
     return (
     <section>
