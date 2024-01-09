@@ -1,7 +1,7 @@
-import React from 'react'
-import gitHubLogo from '../assets/images/github-mark.png'
-import linkedInLogo from '../assets/images/LI-In-Bug.png'
-import instagramLogo from '../assets/images/Instagram_Glyph_Gradient.png'
+import React from 'react';
+import gitHubLogo from '../assets/icons/github-mark.png';
+import linkedInLogo from '../assets/icons/LI-In-Bug.png';
+import instagramLogo from '../assets/icons/Instagram_Glyph_Gradient.png';
 
 const Footer = () => {
   return (
@@ -19,4 +19,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
