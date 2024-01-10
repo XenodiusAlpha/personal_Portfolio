@@ -7,9 +7,7 @@ ul {
 
 .navList li {
     padding: 23px 20px;
-    background-color: #2e8486;
-    
-    /* border: 2px solid black; */
+    /* background-color: #2e8486; */
     box-shadow: 0 0 10px 1px rgb(72, 72, 72);
     margin: 0 1px 0 1px;
     border-radius: 5px;
@@ -21,3 +19,14 @@ ul {
     color: whitesmoke;
     text-shadow: 1px 1px 1px rgb(59, 59, 59);
 }
+
+.navList li:hover {
+    color: #aeccb9;
+    border-bottom: 2px solid whitesmoke;
+}
+
+/* shows which link is active */
+.active {
+    border-bottom: 2px solid whitesmoke;
+}
+
