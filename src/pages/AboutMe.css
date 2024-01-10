@@ -27,3 +27,10 @@
     box-shadow: 1px 2px 5px .5px black;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 460px)  {
+    .aboutSection p {
+        width: auto;
+        text-align: center;
+    }
+}

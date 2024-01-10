@@ -47,3 +47,10 @@
     background-color: #359698;
     cursor: pointer;
 }
+
+@media screen and (max-width: 460px)  {
+    .contactForm form {
+        width: 100%;
+        margin: auto;
+    }
+}

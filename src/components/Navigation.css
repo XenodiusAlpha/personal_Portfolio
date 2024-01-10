@@ -30,3 +30,12 @@ ul {
     border-bottom: 2px solid whitesmoke;
 }
 
+@media screen and (max-width: 460px)  {
+    .navList li {
+        padding: 23px 15px;
+    }
+
+    .navList a {
+        font-size: .8rem;
+    }
+}
