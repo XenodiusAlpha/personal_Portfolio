@@ -1,0 +1,14 @@
+footer {
+    background-color: #2e8486;
+    box-shadow: 0 -3px 5px #277475;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footerImg img {
+    width: 50px;
+    margin: 5px 20px;
+    
+}
+

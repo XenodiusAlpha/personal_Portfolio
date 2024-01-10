@@ -1,0 +1,12 @@
+.portfolioSection h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 20px 0 20px 20px;
+}
+
+.portfolioCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+
+.resumeSection h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 20px 0 20px 20px;
+}
+
+.proficiencies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 0 30px;
+}
+
+.proficiencies h2 {
+    margin: 20px 0;
+}
+
+.proficiencies ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.proficiencies li {
+    margin: 5px 30px;
+    list-style: inside;
+}
+
+.resumeDownload {
+    margin: 30px 60px 10px;
+}
+
+.resumeDownload a {
+    font-weight: 500;
+    font-size: 1rem;
+    font-style: italic;
+    color: black;
+}
+
+.resumeDownload a:hover {
+    color: rgb(60, 60, 60);
+    cursor: pointer;
+}

@@ -1,11 +1,12 @@
 import React from 'react'
 // import Link to hyperlink the distinct pages in the navigation
 import { Link } from 'react-router-dom'
+import './Navigation.css'
 
 const Navigation = () => {
   return (
     <nav>
-      <ul>
+      <ul className='navList'>
         {/* link for main path '/' */}
         <li>
           <Link to='/'>

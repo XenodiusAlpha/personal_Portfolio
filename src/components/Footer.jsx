@@ -1,11 +1,12 @@
 import React from 'react';
-import gitHubLogo from '../assets/icons/github-mark.png';
+import gitHubLogo from '../assets/icons/github-mark-white.png';
 import linkedInLogo from '../assets/icons/LI-In-Bug.png';
 import instagramLogo from '../assets/icons/Instagram_Glyph_Gradient.png';
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='footerImg'>
         <a target="_blank" href='https://github.com/XenodiusAlpha'>
             <img src={gitHubLogo} alt="GitHub link to portfolio" />
         </a>
