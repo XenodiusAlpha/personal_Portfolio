@@ -1,6 +1,7 @@
 import React from 'react'
 // imports useState hook from react
 import { useState } from 'react';
+import './Contact.css';
 
 // declares Contact function to be exported
 const Contact = () => {
@@ -60,40 +61,45 @@ const Contact = () => {
   }
 
   return (
-    <div>
-      <h1>Contact</h1>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
-        <input type="text" 
-               id='name'
-               name='name'
-               value={formData.name}
-               placeholder='Your name here'
-               onChange={changeHandler}
-        />
-        <p>{nameErr}</p>
-        <label htmlFor="email">Email:</label>
-        <input type="email" 
-               id='email'
-               name='email'
-               value={formData.email}
-               placeholder='Your email here'
-               onChange={changeHandler}
-        />
-        <p>{emailErr}</p>
-        <label htmlFor="message">Message:</label>
-        <textarea name="message" 
-                  id="message" 
-                  cols="30" 
-                  rows="10" 
-                  value={formData.message}
-                  placeholder='Your message here'
+    <section className='contactSection'>
+      <div>
+        <h1>Contact</h1>
+        <div className='contactForm'>
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="name">Name:</label>
+            <input type="text" 
+                  id='name'
+                  name='name'
+                  value={formData.name}
+                  placeholder='Your name here'
                   onChange={changeHandler}
-        />
-        <p>{messageErr}</p>
-        <button type='Submit'>Submit</button>
-      </form>
-    </div>
+            />
+            <p>{nameErr}</p>
+            <label htmlFor="email">Email:</label>
+            <input type="email" 
+                  id='email'
+                  name='email'
+                  value={formData.email}
+                  placeholder='Your email here'
+                  onChange={changeHandler}
+            />
+            <p>{emailErr}</p>
+            <label htmlFor="message">Message:</label>
+            <textarea name="message" 
+                      id="message" 
+                      cols="30" 
+                      rows="10" 
+                      value={formData.message}
+                      placeholder='Your message here'
+                      onChange={changeHandler}
+            />
+            <p>{messageErr}</p>
+            <button type='Submit'>Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
   )
 }
 

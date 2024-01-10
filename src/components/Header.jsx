@@ -1,11 +1,11 @@
 import React from 'react'
 import Navigation from './Navigation'
-
+import './Header.css';
 
 const Header = () => {
   return (
     <header>
-        <h1>Justin Surette</h1>
+        <h1 className='headTitle'>Justin Surette</h1>
         <Navigation />
     </header>
   )

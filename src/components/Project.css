@@ -1,0 +1,31 @@
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px 40px;
+    box-shadow: 0 0 10px 2px black;
+    border-radius: 10px;
+    background-color: #277475;
+}
+
+.projectCard img {
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+
+}
+.projectLinks {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.projectLinks a {
+    font-size: .8rem;
+    color: white;
+    text-decoration: none;
+}
+
+.projectCard a img {
+    width: 25px;
+    height: 25px;
+}

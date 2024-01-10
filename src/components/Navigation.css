@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    
+}
+
+.navList li {
+    padding: 23px 20px;
+    background-color: #2e8486;
+    
+    /* border: 2px solid black; */
+    box-shadow: 0 0 10px 1px rgb(72, 72, 72);
+    margin: 0 1px 0 1px;
+    border-radius: 5px;
+}
+
+.navList a {
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px rgb(59, 59, 59);
+}
