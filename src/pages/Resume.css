@@ -12,6 +12,7 @@
     width: 100%;
     margin-bottom: 40px;
     padding: 0 30px;
+    min-height: 100vh;
 }
 
 .proficiencies h2 {
