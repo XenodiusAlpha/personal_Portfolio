@@ -1,3 +1,7 @@
+.portfolioSection {
+    min-height: 100vh;
+}
+
 .portfolioSection h1 {
     font-size: 2rem;
     font-weight: 500;

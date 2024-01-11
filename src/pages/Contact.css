@@ -1,5 +1,6 @@
 .contactSection {
     display: flex;
+    min-height: 100vh;
 }
 
 .contactSection h1 {

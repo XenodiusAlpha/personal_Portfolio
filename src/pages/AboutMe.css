@@ -1,5 +1,6 @@
 .aboutSection {
     display: flex;
+    min-height: 100vh;
 }
 
 .aboutSection h1 {
