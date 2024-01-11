@@ -68,10 +68,14 @@ This project is a single-page application portfolio for web developers using rea
 
 XenodiusAlpha
 GitHub repository: https://github.com/XenodiusAlpha/personal_Portfolio
-Netlify Deployment:
+Netlify Deployment: https://main--jade-youtiao-bef288.netlify.app/
 
 ## Screenshots
-
+![About Me](./screenshots/aboutMe.png)
+![Projects](./screenshots/projects.png)
+![Contact](./screenshots/contact.png)
+![Resume](./screenshots/resume.png)
+![Footer](./screenshots/footer.png)
 
 ## License
 
