@@ -6,6 +6,7 @@ import weddingRSVP from '../assets/screenshots/weddingRSVP.png';
 import browserTextEditor from '../assets/screenshots/browserTextEditor.png';
 import readmeGenerator from '../assets/screenshots/readmeGenerator.png';
 import codeCrackers from '../assets/screenshots/codeCrackers.png';
+import kaizenEsque from '../assets/screenshots/kaizenEsque';
 
 // list of all projects and components
 const projectList = [
@@ -56,6 +57,14 @@ const projectList = [
         projectTitle: 'Code Crackers',
         repoLink: 'https://github.com/XenodiusAlpha/code_crackers',
         id: 6
+    },
+    {
+        screenshot: kaizenEsque,
+        screenshotImageAlt: 'Kaizen-esque LMS Image',
+        deployedLink: 'https://kaizen-esque.onrender.com/',
+        projectTitle: 'Kaizen-esque',
+        repoLink: 'https://github.com/XenodiusAlpha/kaizen_esque',
+        id: 7
     }
 ];
 
