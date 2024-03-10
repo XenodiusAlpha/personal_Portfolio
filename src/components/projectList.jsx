@@ -6,7 +6,7 @@ import weddingRSVP from '../assets/screenshots/weddingRSVP.png';
 import browserTextEditor from '../assets/screenshots/browserTextEditor.png';
 import readmeGenerator from '../assets/screenshots/readmeGenerator.png';
 import codeCrackers from '../assets/screenshots/codeCrackers.png';
-import kaizenEsque from '../assets/screenshots/kaizenEsque';
+import kaizenEsque from '../assets/screenshots/kaizenEsque.png';
 
 // list of all projects and components
 const projectList = [
